@@ -45,7 +45,7 @@ This type is a ref struct since it stores the input span as a field in order to 
   </Docs>
   <Members>
     <Member MemberName="Current">
-      <MemberSignature Language="C#" Value="public System.Text.RegularExpressions.ValueMatch Current { get; }" />
+      <MemberSignature Language="C#" Value="public readonly System.Text.RegularExpressions.ValueMatch Current { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Text.RegularExpressions.ValueMatch Current" />
       <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.Regex.ValueMatchEnumerator.Current" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Current As ValueMatch" />

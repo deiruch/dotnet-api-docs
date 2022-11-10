@@ -177,12 +177,13 @@
       </Docs>
     </Member>
     <Member MemberName="Path">
-      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="C#" Value="public string Path { get; }" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch.Path" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
       <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch.Path" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Path { System::String ^ get(); };" />
+      <MemberSignature Language="C#" Value="public readonly string Path { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.FileSystemGlobbing</AssemblyName>
@@ -214,13 +215,14 @@
       </Docs>
     </Member>
     <Member MemberName="Stem">
-      <MemberSignature Language="C#" Value="public string Stem { get; }" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C#" Value="public string Stem { get; }" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance string Stem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch.Stem" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stem As String" />
       <MemberSignature Language="F#" Value="member this.Stem : string" Usage="Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch.Stem" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Stem { System::String ^ get(); };" />
-      <MemberSignature Language="C#" Value="public string? Stem { get; }" FrameworkAlternate="dotnet-plat-ext-7.0" />
+      <MemberSignature Language="C#" Value="public readonly string Stem { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C#" Value="public readonly string? Stem { get; }" FrameworkAlternate="dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.FileSystemGlobbing</AssemblyName>

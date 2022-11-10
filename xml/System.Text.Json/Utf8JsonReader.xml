@@ -199,12 +199,13 @@ This is the reason why the constructor accepts a <xref:System.Text.Json.JsonRead
       </Docs>
     </Member>
     <Member MemberName="BytesConsumed">
-      <MemberSignature Language="C#" Value="public long BytesConsumed { get; }" />
+      <MemberSignature Language="C#" Value="public long BytesConsumed { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 BytesConsumed" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.BytesConsumed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BytesConsumed As Long" />
       <MemberSignature Language="F#" Value="member this.BytesConsumed : int64" Usage="System.Text.Json.Utf8JsonReader.BytesConsumed" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property long BytesConsumed { long get(); };" />
+      <MemberSignature Language="C#" Value="public readonly long BytesConsumed { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -326,12 +327,13 @@ The JSON string contains invalid UTF-8 bytes or invalid UTF-16 surrogates.</exce
       </Docs>
     </Member>
     <Member MemberName="CurrentDepth">
-      <MemberSignature Language="C#" Value="public int CurrentDepth { get; }" />
+      <MemberSignature Language="C#" Value="public int CurrentDepth { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentDepth" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.CurrentDepth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentDepth As Integer" />
       <MemberSignature Language="F#" Value="member this.CurrentDepth : int" Usage="System.Text.Json.Utf8JsonReader.CurrentDepth" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentDepth { int get(); };" />
+      <MemberSignature Language="C#" Value="public readonly int CurrentDepth { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -365,12 +367,13 @@ The `CurrentDepth` property tracks the recursive depth of the nested objects or 
       </Docs>
     </Member>
     <Member MemberName="CurrentState">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonReaderState CurrentState { get; }" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonReaderState CurrentState { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Text.Json.JsonReaderState CurrentState" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.CurrentState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentState As JsonReaderState" />
       <MemberSignature Language="F#" Value="member this.CurrentState : System.Text.Json.JsonReaderState" Usage="System.Text.Json.Utf8JsonReader.CurrentState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Json::JsonReaderState CurrentState { System::Text::Json::JsonReaderState get(); };" />
+      <MemberSignature Language="C#" Value="public readonly System.Text.Json.JsonReaderState CurrentState { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1039,7 +1042,7 @@ The JSON token value represents a number less than <see cref="F:System.UInt64.Mi
       </Docs>
     </Member>
     <Member MemberName="HasValueSequence">
-      <MemberSignature Language="C#" Value="public bool HasValueSequence { get; }" />
+      <MemberSignature Language="C#" Value="public readonly bool HasValueSequence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasValueSequence" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.HasValueSequence" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValueSequence As Boolean" />
@@ -1081,12 +1084,13 @@ For input data within a `ReadOnlySpan<byte>`, this always returns `false`. For i
       </Docs>
     </Member>
     <Member MemberName="IsFinalBlock">
-      <MemberSignature Language="C#" Value="public bool IsFinalBlock { get; }" />
+      <MemberSignature Language="C#" Value="public bool IsFinalBlock { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFinalBlock" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.IsFinalBlock" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFinalBlock As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsFinalBlock : bool" Usage="System.Text.Json.Utf8JsonReader.IsFinalBlock" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFinalBlock { bool get(); };" />
+      <MemberSignature Language="C#" Value="public readonly bool IsFinalBlock { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1113,12 +1117,13 @@ For input data within a `ReadOnlySpan<byte>`, this always returns `false`. For i
       </Docs>
     </Member>
     <Member MemberName="Position">
-      <MemberSignature Language="C#" Value="public SequencePosition Position { get; }" />
+      <MemberSignature Language="C#" Value="public SequencePosition Position { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.SequencePosition Position" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.Position" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As SequencePosition" />
       <MemberSignature Language="F#" Value="member this.Position : SequencePosition" Usage="System.Text.Json.Utf8JsonReader.Position" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property SequencePosition Position { SequencePosition get(); };" />
+      <MemberSignature Language="C#" Value="public readonly SequencePosition Position { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1219,7 +1224,7 @@ The current depth exceeds the recursive limit set by the maximum depth.</excepti
       </Docs>
     </Member>
     <Member MemberName="TokenStartIndex">
-      <MemberSignature Language="C#" Value="public long TokenStartIndex { get; }" />
+      <MemberSignature Language="C#" Value="public readonly long TokenStartIndex { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 TokenStartIndex" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.TokenStartIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenStartIndex As Long" />
@@ -1260,12 +1265,13 @@ For comments, this value points to before the first comment delimiter (that is, 
       </Docs>
     </Member>
     <Member MemberName="TokenType">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonTokenType TokenType { get; }" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonTokenType TokenType { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Text.Json.JsonTokenType TokenType" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.TokenType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As JsonTokenType" />
       <MemberSignature Language="F#" Value="member this.TokenType : System.Text.Json.JsonTokenType" Usage="System.Text.Json.Utf8JsonReader.TokenType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Json::JsonTokenType TokenType { System::Text::Json::JsonTokenType get(); };" />
+      <MemberSignature Language="C#" Value="public readonly System.Text.Json.JsonTokenType TokenType { get; }" FrameworkAlternate="net-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1873,7 +1879,7 @@ The current depth exceeds the recursive limit set by the maximum depth.</excepti
       </Docs>
     </Member>
     <Member MemberName="ValueIsEscaped">
-      <MemberSignature Language="C#" Value="public bool ValueIsEscaped { get; }" />
+      <MemberSignature Language="C#" Value="public readonly bool ValueIsEscaped { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ValueIsEscaped" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.ValueIsEscaped" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueIsEscaped As Boolean" />
@@ -1900,7 +1906,7 @@ The current depth exceeds the recursive limit set by the maximum depth.</excepti
       </Docs>
     </Member>
     <Member MemberName="ValueSequence">
-      <MemberSignature Language="C#" Value="public System.Buffers.ReadOnlySequence&lt;byte&gt; ValueSequence { get; }" />
+      <MemberSignature Language="C#" Value="public readonly System.Buffers.ReadOnlySequence&lt;byte&gt; ValueSequence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; ValueSequence" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.ValueSequence" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueSequence As ReadOnlySequence(Of Byte)" />
@@ -1948,7 +1954,7 @@ Since this property returns the raw bytes, avoid using it for text comparison. I
       </Docs>
     </Member>
     <Member MemberName="ValueSpan">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;byte&gt; ValueSpan { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;byte&gt; ValueSpan { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; ValueSpan" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.ValueSpan" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueSpan As ReadOnlySpan(Of Byte)" />

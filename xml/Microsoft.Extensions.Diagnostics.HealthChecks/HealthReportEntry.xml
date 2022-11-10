@@ -96,12 +96,13 @@
       </Docs>
     </Member>
     <Member MemberName="Data">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; Data { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; Data { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; Data" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Data" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As IReadOnlyDictionary(Of String, Object)" />
       <MemberSignature Language="F#" Value="member this.Data : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Data" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyDictionary&lt;System::String ^, System::Object ^&gt; ^ Data { System::Collections::Generic::IReadOnlyDictionary&lt;System::String ^, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="C#" Value="public readonly System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; Data { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -128,13 +129,14 @@
       </Docs>
     </Member>
     <Member MemberName="Description">
-      <MemberSignature Language="C#" Value="public string Description { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="C#" Value="public string Description { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Description" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
       <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Description" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); };" />
-      <MemberSignature Language="C#" Value="public string? Description { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+      <MemberSignature Language="C#" Value="public readonly string Description { get; }" FrameworkAlternate="dotnet-plat-ext-3.0" />
+      <MemberSignature Language="C#" Value="public readonly string? Description { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -161,12 +163,13 @@
       </Docs>
     </Member>
     <Member MemberName="Duration">
-      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; }" />
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Duration" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As TimeSpan" />
       <MemberSignature Language="F#" Value="member this.Duration : TimeSpan" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Duration" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Duration { TimeSpan get(); };" />
+      <MemberSignature Language="C#" Value="public readonly TimeSpan Duration { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -193,13 +196,14 @@
       </Docs>
     </Member>
     <Member MemberName="Exception">
-      <MemberSignature Language="C#" Value="public Exception Exception { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="C#" Value="public Exception Exception { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Exception" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As Exception" />
       <MemberSignature Language="F#" Value="member this.Exception : Exception" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Exception" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Exception ^ Exception { Exception ^ get(); };" />
-      <MemberSignature Language="C#" Value="public Exception? Exception { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+      <MemberSignature Language="C#" Value="public readonly Exception Exception { get; }" FrameworkAlternate="dotnet-plat-ext-3.0" />
+      <MemberSignature Language="C#" Value="public readonly Exception? Exception { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -226,12 +230,13 @@
       </Docs>
     </Member>
     <Member MemberName="Status">
-      <MemberSignature Language="C#" Value="public Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus Status { get; }" />
+      <MemberSignature Language="C#" Value="public Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus Status { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Status" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As HealthStatus" />
       <MemberSignature Language="F#" Value="member this.Status : Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Status" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Extensions::Diagnostics::HealthChecks::HealthStatus Status { Microsoft::Extensions::Diagnostics::HealthChecks::HealthStatus get(); };" />
+      <MemberSignature Language="C#" Value="public readonly Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus Status { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -258,12 +263,13 @@
       </Docs>
     </Member>
     <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Tags { get; }" />
+      <MemberSignature Language="C#" Value="public readonly System.Collections.Generic.IEnumerable&lt;string&gt; Tags { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Tags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IEnumerable(Of String)" />
       <MemberSignature Language="F#" Value="member this.Tags : seq&lt;string&gt;" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Tags" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ Tags { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Tags { get; }" FrameworkAlternate="dotnet-plat-ext-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>

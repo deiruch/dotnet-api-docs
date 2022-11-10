@@ -114,12 +114,13 @@
       </Docs>
     </Member>
     <Member MemberName="Directory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; Directory { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;char&gt; Directory { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; Directory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.Directory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Directory As ReadOnlySpan(Of Char)" />
       <MemberSignature Language="F#" Value="member this.Directory : ReadOnlySpan&lt;char&gt;" Usage="System.IO.Enumeration.FileSystemEntry.Directory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property ReadOnlySpan&lt;char&gt; Directory { ReadOnlySpan&lt;char&gt; get(); };" />
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; Directory { get; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.FileSystem</AssemblyName>
@@ -353,12 +354,13 @@
       </Docs>
     </Member>
     <Member MemberName="OriginalRootDirectory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; OriginalRootDirectory { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;char&gt; OriginalRootDirectory { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; OriginalRootDirectory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.OriginalRootDirectory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalRootDirectory As ReadOnlySpan(Of Char)" />
       <MemberSignature Language="F#" Value="member this.OriginalRootDirectory : ReadOnlySpan&lt;char&gt;" Usage="System.IO.Enumeration.FileSystemEntry.OriginalRootDirectory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property ReadOnlySpan&lt;char&gt; OriginalRootDirectory { ReadOnlySpan&lt;char&gt; get(); };" />
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; OriginalRootDirectory { get; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.FileSystem</AssemblyName>
@@ -392,12 +394,13 @@
       </Docs>
     </Member>
     <Member MemberName="RootDirectory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; RootDirectory { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;char&gt; RootDirectory { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; RootDirectory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.RootDirectory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootDirectory As ReadOnlySpan(Of Char)" />
       <MemberSignature Language="F#" Value="member this.RootDirectory : ReadOnlySpan&lt;char&gt;" Usage="System.IO.Enumeration.FileSystemEntry.RootDirectory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property ReadOnlySpan&lt;char&gt; RootDirectory { ReadOnlySpan&lt;char&gt; get(); };" />
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; RootDirectory { get; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.FileSystem</AssemblyName>

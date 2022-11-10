@@ -210,12 +210,13 @@
       </Docs>
     </Member>
     <Member MemberName="Bottom">
-      <MemberSignature Language="C#" Value="public float Bottom { get; }" />
+      <MemberSignature Language="C#" Value="public readonly float Bottom { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Bottom" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.RectangleF.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bottom As Single" />
       <MemberSignature Language="F#" Value="member this.Bottom : single" Usage="System.Drawing.RectangleF.Bottom" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Bottom { float get(); };" />
+      <MemberSignature Language="C#" Value="public float Bottom { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1065,12 +1066,13 @@
       </Docs>
     </Member>
     <Member MemberName="IsEmpty">
-      <MemberSignature Language="C#" Value="public bool IsEmpty { get; }" />
+      <MemberSignature Language="C#" Value="public readonly bool IsEmpty { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.RectangleF.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="System.Drawing.RectangleF.IsEmpty" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEmpty { bool get(); };" />
+      <MemberSignature Language="C#" Value="public bool IsEmpty { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1114,12 +1116,13 @@
       </Docs>
     </Member>
     <Member MemberName="Left">
-      <MemberSignature Language="C#" Value="public float Left { get; }" />
+      <MemberSignature Language="C#" Value="public readonly float Left { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Left" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.RectangleF.Left" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Single" />
       <MemberSignature Language="F#" Value="member this.Left : single" Usage="System.Drawing.RectangleF.Left" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Left { float get(); };" />
+      <MemberSignature Language="C#" Value="public float Left { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1522,12 +1525,13 @@
       </Docs>
     </Member>
     <Member MemberName="Right">
-      <MemberSignature Language="C#" Value="public float Right { get; }" />
+      <MemberSignature Language="C#" Value="public readonly float Right { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Right" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.RectangleF.Right" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Right As Single" />
       <MemberSignature Language="F#" Value="member this.Right : single" Usage="System.Drawing.RectangleF.Right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Right { float get(); };" />
+      <MemberSignature Language="C#" Value="public float Right { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1633,12 +1637,13 @@
       </Docs>
     </Member>
     <Member MemberName="Top">
-      <MemberSignature Language="C#" Value="public float Top { get; }" />
+      <MemberSignature Language="C#" Value="public readonly float Top { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance float32 Top" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.RectangleF.Top" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Single" />
       <MemberSignature Language="F#" Value="member this.Top : single" Usage="System.Drawing.RectangleF.Top" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Top { float get(); };" />
+      <MemberSignature Language="C#" Value="public float Top { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>

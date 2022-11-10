@@ -147,12 +147,13 @@
       </Docs>
     </Member>
     <Member MemberName="AdvancePastAny">
-      <MemberSignature Language="C#" Value="public long AdvancePastAny (ReadOnlySpan&lt;T&gt; values);" />
+      <MemberSignature Language="C#" Value="public long AdvancePastAny (ReadOnlySpan&lt;T&gt; values);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int64 AdvancePastAny(valuetype System.ReadOnlySpan`1&lt;!T&gt; values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.AdvancePastAny(System.ReadOnlySpan{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Function AdvancePastAny (values As ReadOnlySpan(Of T)) As Long" />
       <MemberSignature Language="F#" Value="member this.AdvancePastAny : ReadOnlySpan&lt;'T (requires 'T : struct)&gt; -&gt; int64" Usage="sequenceReader.AdvancePastAny values" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; long AdvancePastAny(ReadOnlySpan&lt;T&gt; values);" />
+      <MemberSignature Language="C#" Value="public long AdvancePastAny (scoped ReadOnlySpan&lt;T&gt; values);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -317,7 +318,7 @@
       </Docs>
     </Member>
     <Member MemberName="Consumed">
-      <MemberSignature Language="C#" Value="public long Consumed { get; }" />
+      <MemberSignature Language="C#" Value="public readonly long Consumed { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 Consumed" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.Consumed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Consumed As Long" />
@@ -352,7 +353,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentSpan">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;T&gt; CurrentSpan { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;T&gt; CurrentSpan { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;!T&gt; CurrentSpan" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.CurrentSpan" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentSpan As ReadOnlySpan(Of T)" />
@@ -387,7 +388,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentSpanIndex">
-      <MemberSignature Language="C#" Value="public int CurrentSpanIndex { get; }" />
+      <MemberSignature Language="C#" Value="public readonly int CurrentSpanIndex { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentSpanIndex" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.CurrentSpanIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentSpanIndex As Integer" />
@@ -422,7 +423,7 @@
       </Docs>
     </Member>
     <Member MemberName="End">
-      <MemberSignature Language="C#" Value="public bool End { get; }" />
+      <MemberSignature Language="C#" Value="public readonly bool End { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool End" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.End" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property End As Boolean" />
@@ -458,11 +459,12 @@
       </Docs>
     </Member>
     <Member MemberName="IsNext">
-      <MemberSignature Language="C#" Value="public bool IsNext (ReadOnlySpan&lt;T&gt; next, bool advancePast = false);" />
+      <MemberSignature Language="C#" Value="public bool IsNext (ReadOnlySpan&lt;T&gt; next, bool advancePast = false);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsNext(valuetype System.ReadOnlySpan`1&lt;!T&gt; next, bool advancePast) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.IsNext(System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function IsNext (next As ReadOnlySpan(Of T), Optional advancePast As Boolean = false) As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsNext : ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.IsNext (next, advancePast)" />
+      <MemberSignature Language="C#" Value="public bool IsNext (scoped ReadOnlySpan&lt;T&gt; next, bool advancePast = false);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -530,7 +532,7 @@
       </Docs>
     </Member>
     <Member MemberName="Length">
-      <MemberSignature Language="C#" Value="public long Length { get; }" />
+      <MemberSignature Language="C#" Value="public readonly long Length { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 Length" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Long" />
@@ -565,7 +567,7 @@
       </Docs>
     </Member>
     <Member MemberName="Position">
-      <MemberSignature Language="C#" Value="public SequencePosition Position { get; }" />
+      <MemberSignature Language="C#" Value="public readonly SequencePosition Position { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.SequencePosition Position" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.Position" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As SequencePosition" />
@@ -600,7 +602,7 @@
       </Docs>
     </Member>
     <Member MemberName="Remaining">
-      <MemberSignature Language="C#" Value="public long Remaining { get; }" />
+      <MemberSignature Language="C#" Value="public readonly long Remaining { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 Remaining" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.Remaining" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Remaining As Long" />
@@ -670,7 +672,7 @@
       </Docs>
     </Member>
     <Member MemberName="Sequence">
-      <MemberSignature Language="C#" Value="public System.Buffers.ReadOnlySequence&lt;T&gt; Sequence { get; }" />
+      <MemberSignature Language="C#" Value="public readonly System.Buffers.ReadOnlySequence&lt;T&gt; Sequence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Buffers.ReadOnlySequence`1&lt;!T&gt; Sequence" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.Sequence" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sequence As ReadOnlySequence(Of T)" />
@@ -741,11 +743,12 @@
       </Docs>
     </Member>
     <Member MemberName="TryAdvanceToAny">
-      <MemberSignature Language="C#" Value="public bool TryAdvanceToAny (ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" />
+      <MemberSignature Language="C#" Value="public bool TryAdvanceToAny (ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryAdvanceToAny(valuetype System.ReadOnlySpan`1&lt;!T&gt; delimiters, bool advancePastDelimiter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.TryAdvanceToAny(System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryAdvanceToAny (delimiters As ReadOnlySpan(Of T), Optional advancePastDelimiter As Boolean = true) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryAdvanceToAny : ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.TryAdvanceToAny (delimiters, advancePastDelimiter)" />
+      <MemberSignature Language="C#" Value="public bool TryAdvanceToAny (scoped ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -969,11 +972,12 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="TryReadTo">
-      <MemberSignature Language="C#" Value="public bool TryReadTo (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" />
+      <MemberSignature Language="C#" Value="public bool TryReadTo (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadTo([out] valuetype System.Buffers.ReadOnlySequence`1&lt;!T&gt;&amp; sequence, valuetype System.ReadOnlySpan`1&lt;!T&gt; delimiter, bool advancePastDelimiter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.TryReadTo(System.Buffers.ReadOnlySequence{`0}@,System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadTo (ByRef sequence As ReadOnlySequence(Of T), delimiter As ReadOnlySpan(Of T), Optional advancePastDelimiter As Boolean = true) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryReadTo : ReadOnlySequence * ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.TryReadTo (sequence, delimiter, advancePastDelimiter)" />
+      <MemberSignature Language="C#" Value="public bool TryReadTo (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, scoped ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -1045,11 +1049,12 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="TryReadTo">
-      <MemberSignature Language="C#" Value="public bool TryReadTo (out ReadOnlySpan&lt;T&gt; span, ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" />
+      <MemberSignature Language="C#" Value="public bool TryReadTo (out ReadOnlySpan&lt;T&gt; span, ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadTo([out] valuetype System.ReadOnlySpan`1&lt;!T&gt;&amp; span, valuetype System.ReadOnlySpan`1&lt;!T&gt; delimiter, bool advancePastDelimiter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.TryReadTo(System.ReadOnlySpan{`0}@,System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadTo (ByRef span As ReadOnlySpan(Of T), delimiter As ReadOnlySpan(Of T), Optional advancePastDelimiter As Boolean = true) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryReadTo : ReadOnlySpan * ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.TryReadTo (span, delimiter, advancePastDelimiter)" />
+      <MemberSignature Language="C#" Value="public bool TryReadTo (out ReadOnlySpan&lt;T&gt; span, scoped ReadOnlySpan&lt;T&gt; delimiter, bool advancePastDelimiter = true);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -1199,11 +1204,12 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="TryReadToAny">
-      <MemberSignature Language="C#" Value="public bool TryReadToAny (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" />
+      <MemberSignature Language="C#" Value="public bool TryReadToAny (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadToAny([out] valuetype System.Buffers.ReadOnlySequence`1&lt;!T&gt;&amp; sequence, valuetype System.ReadOnlySpan`1&lt;!T&gt; delimiters, bool advancePastDelimiter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.TryReadToAny(System.Buffers.ReadOnlySequence{`0}@,System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadToAny (ByRef sequence As ReadOnlySequence(Of T), delimiters As ReadOnlySpan(Of T), Optional advancePastDelimiter As Boolean = true) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryReadToAny : ReadOnlySequence * ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.TryReadToAny (sequence, delimiters, advancePastDelimiter)" />
+      <MemberSignature Language="C#" Value="public bool TryReadToAny (out System.Buffers.ReadOnlySequence&lt;T&gt; sequence, scoped ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -1237,11 +1243,12 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="TryReadToAny">
-      <MemberSignature Language="C#" Value="public bool TryReadToAny (out ReadOnlySpan&lt;T&gt; span, ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" />
+      <MemberSignature Language="C#" Value="public bool TryReadToAny (out ReadOnlySpan&lt;T&gt; span, ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadToAny([out] valuetype System.ReadOnlySpan`1&lt;!T&gt;&amp; span, valuetype System.ReadOnlySpan`1&lt;!T&gt; delimiters, bool advancePastDelimiter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.SequenceReader`1.TryReadToAny(System.ReadOnlySpan{`0}@,System.ReadOnlySpan{`0},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadToAny (ByRef span As ReadOnlySpan(Of T), delimiters As ReadOnlySpan(Of T), Optional advancePastDelimiter As Boolean = true) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryReadToAny : ReadOnlySpan * ReadOnlySpan&lt;'T (requires 'T : struct)&gt; * bool -&gt; bool" Usage="sequenceReader.TryReadToAny (span, delimiters, advancePastDelimiter)" />
+      <MemberSignature Language="C#" Value="public bool TryReadToAny (out ReadOnlySpan&lt;T&gt; span, scoped ReadOnlySpan&lt;T&gt; delimiters, bool advancePastDelimiter = true);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -1275,7 +1282,7 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="UnreadSequence">
-      <MemberSignature Language="C#" Value="public System.Buffers.ReadOnlySequence&lt;T&gt; UnreadSequence { get; }" />
+      <MemberSignature Language="C#" Value="public readonly System.Buffers.ReadOnlySequence&lt;T&gt; UnreadSequence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Buffers.ReadOnlySequence`1&lt;!T&gt; UnreadSequence" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.UnreadSequence" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadSequence As ReadOnlySequence(Of T)" />
@@ -1307,7 +1314,7 @@ This method copies a fixed amount of data out of the sequence if possible. It do
       </Docs>
     </Member>
     <Member MemberName="UnreadSpan">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;T&gt; UnreadSpan { get; }" />
+      <MemberSignature Language="C#" Value="public readonly ReadOnlySpan&lt;T&gt; UnreadSpan { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;!T&gt; UnreadSpan" />
       <MemberSignature Language="DocId" Value="P:System.Buffers.SequenceReader`1.UnreadSpan" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadSpan As ReadOnlySpan(Of T)" />
